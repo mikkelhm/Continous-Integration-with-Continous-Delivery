@@ -24,5 +24,4 @@ app.UseUmbraco()
         u.UseBackOfficeEndpoints();
         u.UseWebsiteEndpoints();
     });
-
 await app.RunAsync();
