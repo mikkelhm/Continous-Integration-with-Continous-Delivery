@@ -1,7 +1,17 @@
 {
   "Deploy": {
     "Project": {
-      "Workspaces": []
+      "Name": "continous integration with continous delivery",
+      "Alias": "continous-integration-with-continous-delivery",
+      "Id": "13920afc-92cd-49d3-b38b-d8867683aa38",
+      "Workspaces": [
+        {
+          "Id": "ec7e8b18-651f-48a9-8e6e-d9f4085b338a",
+          "Name": "Live",
+          "Type": "live",
+          "Url": "https://continous-integration-with-continous-delivery.euwest01.rainbowsrock.net"
+        }
+      ]
     },
     "Settings": {}
   },
